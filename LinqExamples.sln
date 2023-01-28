@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExamples", "LinqExample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWhere", "LinqWhere\LinqWhere.csproj", "{A2B948B9-12DB-4DCF-B458-225CABC4B6C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqFirst", "LinqFirst\LinqFirst.csproj", "{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A2B948B9-12DB-4DCF-B458-225CABC4B6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2B948B9-12DB-4DCF-B458-225CABC4B6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2B948B9-12DB-4DCF-B458-225CABC4B6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

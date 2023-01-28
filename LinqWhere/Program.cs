@@ -18,6 +18,8 @@ var students = new List<Student>()
 // Get numbers above 5
 var numbersMoreThanFive = numbers.Where(x => x > 5).ToList();
 
+Console.WriteLine("Get numbers above 5:");
+
 foreach (var number in numbersMoreThanFive)
 {
     Console.WriteLine(number);
@@ -26,6 +28,8 @@ Console.WriteLine();
 
 // Get even numbers
 var evenNumbers = numbers.Where(x => x % 2 == 0).ToList();
+
+Console.WriteLine("Get even numbers:");
 
 foreach (var number in evenNumbers)
 {
@@ -36,6 +40,8 @@ Console.WriteLine();
 // Get students with grade equals 4
 var studentsWithGradeFour = students.Where(x => x.Grade == 4).ToList();
 
+Console.WriteLine("Get students with grade equals 4:");
+
 foreach (var student in studentsWithGradeFour)
 {
     Console.WriteLine($"Name = {student.Name}; Grade = {student.Grade}");
@@ -45,6 +51,8 @@ Console.WriteLine();
 // Get maths students
 var mathsStudents = students.Where(x => x.SchoolSubject == "Maths").ToList();
 
+Console.WriteLine("Get maths students:");
+
 foreach (var student in mathsStudents)
 {
     Console.WriteLine($"Name = {student.Name}; School subject = {student.SchoolSubject}");
@@ -53,6 +61,8 @@ Console.WriteLine();
 
 // Get art students with grade above 4
 var artStudentsWithGradeAboveFour = students.Where(x => x.SchoolSubject == "Art" && x.Grade > 4).ToList();
+
+Console.WriteLine("Get art students with grade above 4:");
 
 foreach (var student in artStudentsWithGradeAboveFour)
 {
