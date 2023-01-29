@@ -1,4 +1,4 @@
-﻿// First - take first element from collection
+﻿// First - get first element from collection
 
 var numbers = new List<int> { 5, 2, 1, 6, 3, 1, 4, 5, 6, 1, 7, 8, 9, 10, 1 };
 
@@ -18,7 +18,7 @@ Console.WriteLine(firstElementEqualsOne);
 
 Console.WriteLine();
 
-// Get first element equals 11 - there is not in collection (will be exception)
+// Get first element equals 11 - there is not in collection (will return exception)
 var firstElementEqualsEleven = numbers.First(x => x == 11);
 
 Console.WriteLine("First element equals eleven:");
@@ -26,7 +26,7 @@ Console.WriteLine(firstElementEqualsEleven);
 
 Console.WriteLine();
 
-// Get first element equals 12 - there is not in collection (use FirstOrDefault will be default type)
+// Get first element equals 12 - there is not in collection (use FirstOrDefault will return default type)
 var firstElementEqualsTwelve = numbers.FirstOrDefault(x => x == 12);
 
 Console.WriteLine("First element equals twelve:");

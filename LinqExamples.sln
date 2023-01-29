@@ -5,9 +5,11 @@ VisualStudioVersion = 17.5.33318.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExamples", "LinqExamples\LinqExamples.csproj", "{A20DA3F4-3405-4358-B41B-F8CC72DEEFD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWhere", "LinqWhere\LinqWhere.csproj", "{A2B948B9-12DB-4DCF-B458-225CABC4B6C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqWhere", "LinqWhere\LinqWhere.csproj", "{A2B948B9-12DB-4DCF-B458-225CABC4B6C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqFirst", "LinqFirst\LinqFirst.csproj", "{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqFirst", "LinqFirst\LinqFirst.csproj", "{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSingle", "LinqSingle\LinqSingle.csproj", "{B4287817-CC36-44E6-B57C-31C35CBFE49A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{833FD1F1-C321-4A34-A84F-A4E6E295B3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4287817-CC36-44E6-B57C-31C35CBFE49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4287817-CC36-44E6-B57C-31C35CBFE49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4287817-CC36-44E6-B57C-31C35CBFE49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4287817-CC36-44E6-B57C-31C35CBFE49A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
