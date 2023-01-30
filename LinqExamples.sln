@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Merging", "Merging", "{B8E0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTake", "LinqTake\LinqTake.csproj", "{7A6D59CE-1444-420E-A4D1-3797315379F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSkip", "LinqSkip\LinqSkip.csproj", "{A74F2671-3890-49A8-B75B-D855061A5DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7A6D59CE-1444-420E-A4D1-3797315379F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A6D59CE-1444-420E-A4D1-3797315379F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A6D59CE-1444-420E-A4D1-3797315379F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74F2671-3890-49A8-B75B-D855061A5DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74F2671-3890-49A8-B75B-D855061A5DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74F2671-3890-49A8-B75B-D855061A5DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74F2671-3890-49A8-B75B-D855061A5DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{CA63D027-816D-48E3-8505-249DF798CFCC} = {38DD623A-DDBD-4BA5-9FCB-E64BE7530DB7}
 		{EE3E87A5-DB23-4857-B105-082563A0A611} = {38DD623A-DDBD-4BA5-9FCB-E64BE7530DB7}
 		{7A6D59CE-1444-420E-A4D1-3797315379F3} = {308C98B3-22FC-462F-96F7-05EC65280CC8}
+		{A74F2671-3890-49A8-B75B-D855061A5DDC} = {308C98B3-22FC-462F-96F7-05EC65280CC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E82E8A8-B83A-4838-B902-AD8C4E8AEFF6}
