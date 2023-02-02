@@ -1,4 +1,4 @@
-﻿// Distinct - remove duplicates
+﻿// Distinct - remove duplicates, works with only one collection
 
 using LinqDistinct;
 
@@ -26,7 +26,7 @@ var studentsWithoutDuplicates = students.DistinctBy(x => x.SchoolSubject);
 
 foreach (var student in studentsWithoutDuplicates)
 {
-    Console.WriteLine($"Id = {student.Id}; Name = {student.Name}; SchoolSubject = {student.SchoolSubject};" +
+    Console.WriteLine($"Id = {student.Id}; Name = {student.Name}; SchoolSubject = {student.SchoolSubject}; " +
                       $"Grade = {student.Grade}");
 }
 
