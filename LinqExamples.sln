@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqZip", "LinqZip\LinqZip.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToLookup", "LinqToLookup\LinqToLookup.csproj", "{E13CCC8C-B7E2-4468-893A-6607B71F92E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToDictionary", "LinqToDictionary\LinqToDictionary.csproj", "{200CD7FE-4142-4475-A10D-5A961F75F573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{E13CCC8C-B7E2-4468-893A-6607B71F92E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E13CCC8C-B7E2-4468-893A-6607B71F92E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E13CCC8C-B7E2-4468-893A-6607B71F92E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200CD7FE-4142-4475-A10D-5A961F75F573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200CD7FE-4142-4475-A10D-5A961F75F573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200CD7FE-4142-4475-A10D-5A961F75F573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200CD7FE-4142-4475-A10D-5A961F75F573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -208,6 +214,7 @@ Global
 		{546597C6-9037-4DF1-B242-2673036BFD29} = {F44D8C12-695E-474A-ADC8-DCED6FE2E579}
 		{B5C03BC6-17E0-4BD2-94F7-B4AB2EC722FF} = {B8E08BDB-2517-4F58-AF61-06EEE294D9DA}
 		{E13CCC8C-B7E2-4468-893A-6607B71F92E1} = {A4E401D5-234E-4FEC-8813-3CA68DDDF1C3}
+		{200CD7FE-4142-4475-A10D-5A961F75F573} = {A4E401D5-234E-4FEC-8813-3CA68DDDF1C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E82E8A8-B83A-4838-B902-AD8C4E8AEFF6}

@@ -1,4 +1,4 @@
-﻿// ToLookup is similar to GroupBy, but the ToLookup performs immediate execution
+﻿// ToLookup is similar to GroupBy, but the ToLookup performs immediate execution and one key can have list of values
 
 using LinqToLookup;
 
