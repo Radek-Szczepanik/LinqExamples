@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqCount", "LinqCount\Linq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregate", "Aggregate\Aggregate.csproj", "{B56BD988-DE7A-4292-A8BA-127DF87C5E52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMaxBy", "LinqMaxBy\LinqMaxBy.csproj", "{546597C6-9037-4DF1-B242-2673036BFD29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{B56BD988-DE7A-4292-A8BA-127DF87C5E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B56BD988-DE7A-4292-A8BA-127DF87C5E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B56BD988-DE7A-4292-A8BA-127DF87C5E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546597C6-9037-4DF1-B242-2673036BFD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546597C6-9037-4DF1-B242-2673036BFD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546597C6-9037-4DF1-B242-2673036BFD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546597C6-9037-4DF1-B242-2673036BFD29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -187,6 +193,7 @@ Global
 		{6ECD35CF-BB65-4FB6-A6FD-E0D551C3234C} = {B8E08BDB-2517-4F58-AF61-06EEE294D9DA}
 		{424542AD-F5ED-4B86-8ACC-A6075C6558A2} = {F44D8C12-695E-474A-ADC8-DCED6FE2E579}
 		{B56BD988-DE7A-4292-A8BA-127DF87C5E52} = {F44D8C12-695E-474A-ADC8-DCED6FE2E579}
+		{546597C6-9037-4DF1-B242-2673036BFD29} = {F44D8C12-695E-474A-ADC8-DCED6FE2E579}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E82E8A8-B83A-4838-B902-AD8C4E8AEFF6}
