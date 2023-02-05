@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMaxBy", "LinqMaxBy\Linq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqZip", "LinqZip\LinqZip.csproj", "{B5C03BC6-17E0-4BD2-94F7-B4AB2EC722FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToLookup", "LinqToLookup\LinqToLookup.csproj", "{E13CCC8C-B7E2-4468-893A-6607B71F92E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,6 +175,10 @@ Global
 		{B5C03BC6-17E0-4BD2-94F7-B4AB2EC722FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5C03BC6-17E0-4BD2-94F7-B4AB2EC722FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5C03BC6-17E0-4BD2-94F7-B4AB2EC722FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13CCC8C-B7E2-4468-893A-6607B71F92E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13CCC8C-B7E2-4468-893A-6607B71F92E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13CCC8C-B7E2-4468-893A-6607B71F92E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13CCC8C-B7E2-4468-893A-6607B71F92E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -201,6 +207,7 @@ Global
 		{B56BD988-DE7A-4292-A8BA-127DF87C5E52} = {F44D8C12-695E-474A-ADC8-DCED6FE2E579}
 		{546597C6-9037-4DF1-B242-2673036BFD29} = {F44D8C12-695E-474A-ADC8-DCED6FE2E579}
 		{B5C03BC6-17E0-4BD2-94F7-B4AB2EC722FF} = {B8E08BDB-2517-4F58-AF61-06EEE294D9DA}
+		{E13CCC8C-B7E2-4468-893A-6607B71F92E1} = {A4E401D5-234E-4FEC-8813-3CA68DDDF1C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E82E8A8-B83A-4838-B902-AD8C4E8AEFF6}
