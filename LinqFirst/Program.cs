@@ -1,13 +1,15 @@
 ﻿// First - get first element from collection
 
 var numbers = new List<int> { 5, 2, 1, 6, 3, 1, 4, 5, 6, 1, 7, 8, 9, 10, 1 };
+var words = new List<string> { "Hello", "Hi", "Good morning" };
 
 // Get first element
 var firstElement = numbers.First();
+var firstWord = words.First();
 
 Console.WriteLine("First element:");
 Console.WriteLine(firstElement);
-
+Console.WriteLine(firstWord);
 Console.WriteLine();
 
 // Get first element equals 1

@@ -1,4 +1,4 @@
-﻿// Zip - join first element from first collection with second element from second collection
+﻿// Zip - join first element from first collection with first element from second collection
 
 var letters = new[] { "A", "B", "C", "D", "E", "F", "G" };
 var numbers = new[] { 1, 2, 3, 4 };

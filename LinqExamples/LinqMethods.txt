@@ -1,0 +1,81 @@
+Aggregate - wspó³pracuje z kolekcjami ró¿nych typów. Np. na List<int> mo¿na dodawaæ, mno¿yæ, dzieliæ lub wyci¹gaæ œredni¹. Mo¿na manipulowaæ
+		    ci¹gami tekstowymi (np. odwracaæ kolejnoœæ), mo¿na sprawdziæ, który wyraz w kolekcji jest najd³u¿szy.
+
+Count - mo¿na u¿yæ Count(), aby policzyæ np. wszystkie elementy w kolekcji, lub Count(x => x. "i jakiœ warunek").
+
+Max - zwróci najwiêksz¹ wartoœæ np. z List<int>. MaxBy przyjmuje warunek np. MaxBy(x => x.Age) zwróci wartoœæ, która ma najwiêkszy wiek
+	  z obiektu (np. typu Person).
+
+First - pobiera pierwszy element z kolekcji. Je¿eli jest kilka takich samych elementów to zwróci pierwszy. Do metody mo¿na przekazaæ
+	    predykatê np. First(x => x == 1) zostanie pobrany z kolekcji element = 1, je¿eli jest kilka zostanie pobrany pierwszy. Je¿eli elementu
+		nie ma w kolekcji zwróci b³¹d Sequence contains no matching element. Je¿eli nie jesteœmy pewni czy element wystêpuje w kolekcji mo¿na
+		u¿yæ FirstOrDefault() zamiast b³êdu zwróci wartoœæ domyœln¹ czyli 0 lub null.
+
+Last - tak samo jak First, tylko odnosi siê do ostatniego elementu w kolekcji.
+
+Single - pobiera unikalny element z kolekcji Single(x => x == 1). Ma sens u¿ywaæ bez predykaty Single(), je¿eli kolekcja, na której operujemy
+		 ma jeden element. Je¿eli jest kilka takich samych elementów to zwróci b³¹d Sequence contains more than one matching element. Je¿eli
+		 element nie zostanie odnaleziony zwróci b³¹d Sequence contains no matching element. 
+
+SingleOrDefault - je¿eli jest kilka takich samych elementów to zwróci b³¹d Sequence contains more than one matching element. Je¿eli nie ma
+				  pasuj¹cych elementów zwróci wartoœæ domyœln¹.
+
+Distinct - wspó³pracuje tylko z jedn¹ kolekcj¹ (np. List<int>) i usuwa duplikaty.
+
+DistinctBy - przyjmuje selektor np. DistinctBy(x => x.Name) i usuwa duplikaty z obiektu (np. typu Student).
+
+Skip - metoda przyjmuje int i pomija pobierane elementy z kolekcji, np. Skip(5) pominie 5 pierwszych elementów przy pobieraniu. Je¿eli
+	   parametr jest wiêkszy ni¿ kolekcja to zwróci pust¹ listê (np. Skip(10), a kolekcja ma 5 elementów).
+
+SkipWhile - przyjmuje predykatê i pomija elementy z kolekcji (LICZ¥C OD POCZ¥TKU) dopóki warunek jest spe³niony, np. SkipWhile(x => x < 3)
+			pominie elementy mniejsze od 3 z pocz¹tku kolekcji, a resztê wyœwietli. Je¿eli na koñcu kolekcji (po elementach nie pominiêtych)
+			bêdzie element mniejszy od 3 to zostanie on wyœwietlony (nie bêdzie brany pod uwagê w warunkach do pominiêcia).
+
+Take - tak samo jak Skip, tylko pobiera elementy.
+
+TakeWhile - tak samo jak SkipWhile, tylko pobiera elementy. Pobierze tylko pierwszy pasuj¹cy element, kolejne pasuj¹ce elementy np. ze
+			œrodka kolekcji nie zostan¹ uwzglêdnione (pomimo, ¿e pasuj¹).
+
+Where - przyjmuje predykatê i pobiera dane z kolekcji (filtruje). ¯eby dane nadawa³y siê do dalszej obróbki trzeba je "zmaterializowaæ" np.
+		metod¹ ToList(). Where(x => x % 2 == 0) zwróci z kolekcji tylko liczby parzyste. Where(x => x.Name == "Anna" && x.Grade > 4) wybierze
+		np. z kolekcji Studentów tylko tych o imieniu Anna i ocenach wiêkszych od 4.
+
+GroupBy - grupuje kolekcjê wed³ug okreœlonego warunku, mo¿na grupowaæ wed³ug kilku warunków. Odroczone wykonanie, ¿eby zmaterializowaæ dane
+		  trzeba u¿yæ np. ToList(). Grupowanie odbywa siê po stronie bazy danych.
+
+ToLookup - podobne do GroupBy, ale wykonanie jest natychmiastowe i dzia³a podobnie jak ToList(), ToArray(). Grupowanie odbywa siê w pamiêci.
+		   Jeden klucz mo¿e mieæ listê wartoœci.
+
+ToDictionary - podobne do ToLookup, ale jeden klucz mo¿e mieæ tylko jedn¹ wartoœæ.
+
+Join - ³¹czy kolekcje po kluczu. Je¿eli nie bêdzie dopasowania zwróci pust¹ wartoœæ, nie bêdziê ona widoczna w wynikach wyszukiwania (NIE NULL).
+	   Dzia³a jak inner join w sql.
+
+GroupJoin - ³¹czy kolekcje po kluczu. Wartoœæ, która nie bêdzie mia³a doposowania zostanie wyœwietlona. Je¿eli wartoœæ z pierwszej tabeli
+			bêdzie mia³a kilka dopasowañ to zostan¹ one wyœwietlone w postaci listy.
+
+Zip - ³¹czy kolejno elementy z dwóch kolekcji. Pierwszy element z pierwszej kolekcji z pierwszym elementem z drugiej kolekcji itd.
+
+Select - filtruje dane tak jak Where, ale te¿ dokonuje transformacji danych do innego obiektu (np. Dto, albo do typu anonimowego).
+
+SelectMany - je¿eli iterujemy po kolekcji, która zawiera inn¹ kolekcjê to u¿ywaj¹c Select trzeba stworzyæ dwie pêtle ¿eby dostaæ siê do danych.
+		     U¿ywaj¹c SelectMany mo¿emy wyci¹gn¹æ zagnie¿d¿one dane bez pêtli.
+
+All - sprawdza kolekcjê wed³ug warunku i zwraca bool. Je¿eli mamy List<int> {1,2,3,4,5,6,7} i zapytamy czy kolekcja zawiera cyfry wiêksze
+	  od 5 to zwróci false, poniewa¿ kolekcja zawiera równie¿ cyfry mniejsze od 5. Je¿eli zapytamy czy kolekcja zawiera elementy wiêksze 
+	  od 0 to zwróci true.
+
+Any - sprawdza czy kolekcja zawiera przynajmniej jeden element, który spe³nia warunek. Zwraca true lub false.
+
+Except - porównuje dwie kolekcje i zwraca z pierwszej kolekcji tylko te elementy, które nie wystêpuj¹ w drugiej.
+
+Intersect - porównuje dwie kolekcje i zwraca tylko wspólne elementy. Je¿eli wystêpuj¹ duplikaty to je usuwa.
+
+Union - ³¹czy kolekcje tego samego typu i usuwa duplikaty.
+
+OrderBy - sortuje kolekcjê rosn¹co.
+
+OrderByDescending - sortuje kolekcjê malej¹co.
+
+ThenBy lub ThenByDescending - u¿ywamy gdy chcemy posortowaæ kolekcjê np. Student najpierw po ocenie, a nastêpnie po imieniu. Mo¿na u¿yæ
+							  kilku takich metod.

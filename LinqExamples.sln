@@ -63,17 +63,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqGroup", "LinqGroup\Linq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqJoin", "LinqJoin\LinqJoin.csproj", "{6ECD35CF-BB65-4FB6-A6FD-E0D551C3234C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqCount", "LinqCount\LinqCount.csproj", "{424542AD-F5ED-4B86-8ACC-A6075C6558A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqCount", "LinqCount\LinqCount.csproj", "{424542AD-F5ED-4B86-8ACC-A6075C6558A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregate", "Aggregate\Aggregate.csproj", "{B56BD988-DE7A-4292-A8BA-127DF87C5E52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregate", "Aggregate\Aggregate.csproj", "{B56BD988-DE7A-4292-A8BA-127DF87C5E52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMaxBy", "LinqMaxBy\LinqMaxBy.csproj", "{546597C6-9037-4DF1-B242-2673036BFD29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqMaxBy", "LinqMaxBy\LinqMaxBy.csproj", "{546597C6-9037-4DF1-B242-2673036BFD29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqZip", "LinqZip\LinqZip.csproj", "{B5C03BC6-17E0-4BD2-94F7-B4AB2EC722FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqZip", "LinqZip\LinqZip.csproj", "{B5C03BC6-17E0-4BD2-94F7-B4AB2EC722FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToLookup", "LinqToLookup\LinqToLookup.csproj", "{E13CCC8C-B7E2-4468-893A-6607B71F92E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqToLookup", "LinqToLookup\LinqToLookup.csproj", "{E13CCC8C-B7E2-4468-893A-6607B71F92E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToDictionary", "LinqToDictionary\LinqToDictionary.csproj", "{200CD7FE-4142-4475-A10D-5A961F75F573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqToDictionary", "LinqToDictionary\LinqToDictionary.csproj", "{200CD7FE-4142-4475-A10D-5A961F75F573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

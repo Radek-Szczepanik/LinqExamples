@@ -1,7 +1,6 @@
 ﻿// Distinct - remove duplicates, works with only one collection
 
 using LinqDistinct;
-using System.Security.Cryptography.X509Certificates;
 
 var numbers = new List<int> { 1, 2, 3, 3, 3, 4, 5, 6, 6, 7, 8, 1, 1, 9, 10, 5, 5, 2 };
 
